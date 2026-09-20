@@ -1,0 +1,14 @@
+interface:
+  display_name: Project Docs Init
+  short_description: Start lean project documentation from real evidence
+  default_prompt: Use $project-docs-init to initialize the lean docs layout for this
+    new project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

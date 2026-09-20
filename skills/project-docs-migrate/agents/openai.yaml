@@ -1,0 +1,14 @@
+interface:
+  display_name: Project Docs Migrate
+  short_description: Migrate project knowledge without losing its history
+  default_prompt: Use $project-docs-migrate to convert existing project documentation
+    into the lean docs layout.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

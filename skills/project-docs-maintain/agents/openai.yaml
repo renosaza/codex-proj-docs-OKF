@@ -1,0 +1,14 @@
+interface:
+  display_name: Project Docs Maintain
+  short_description: Update only durable facts and useful handoff state
+  default_prompt: Use $project-docs-maintain to update the project documentation affected
+    by this change.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
