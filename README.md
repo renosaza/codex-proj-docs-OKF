@@ -1,6 +1,6 @@
 # Project documentation kit
 
-[![skills.sh](https://skills.sh/b/renosaza/codex-proj-docs-okf?style=for-the-badge)](https://skills.sh/renosaza/codex-proj-docs-okf)
+[![skills.sh installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenosaza%2Fcodex-proj-docs-OKF%2Fmain%2F.github%2Fbadges%2Fskills-sh.json&style=for-the-badge)](https://skills.sh/renosaza/codex-proj-docs-okf)
 
 Reusable project documentation using [Google OKF v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), global and project instructions, and three documentation skills. No fixed human language, individual account, company, repository, technology stack or external memory service is assumed. English template text is editable source text, not a language policy.
 
@@ -49,7 +49,7 @@ npx skills@latest add renosaza/codex-proj-docs-OKF \
   --global
 ```
 
-The badge at the top is the official skills.sh install-count badge. skills.sh discovers public skills from `npx skills add` telemetry and updates the displayed install count automatically after the repository is indexed.
+The badge at the top mirrors the repository's `total installs` value from skills.sh. A scheduled GitHub Action refreshes the badge data every six hours. This avoids depending on the official skills.sh badge endpoint while it returns `resource not found` for this indexed repository.
 
 ## Adopt the full kit
 
