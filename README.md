@@ -1,6 +1,6 @@
 # Project documentation kit
 
-[![skills.sh](https://skills.sh/b/renosaza/codex-proj-docs-OKF)](https://skills.sh/renosaza/codex-proj-docs-OKF)
+[![skills.sh](https://skills.sh/b/renosaza/codex-proj-docs-okf?style=for-the-badge)](https://skills.sh/renosaza/codex-proj-docs-okf)
 
 Reusable project documentation using [Google OKF v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), global and project instructions, and three documentation skills. No fixed human language, individual account, company, repository, technology stack or external memory service is assumed. English template text is editable source text, not a language policy.
 
