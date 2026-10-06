@@ -6,7 +6,7 @@ description: Initialize the lean AGENTS.md and docs system for a new project or 
 
 ## Execution role
 
-Honor the active session role and higher-priority instructions. In an explicitly identified Astra/Sol orchestrator session, delegate searches to Luna (choose effort for the task) and file changes/checks to a Terra worker; integrate evidence without editing files yourself. Workers execute their assigned scope directly without recursive delegation. Terra and lower-tier main sessions execute directly. Do not infer the running model from a config default, invent model IDs, or silently switch roles when delegation is unavailable; report the limitation and request an explicit direct-work override. Keep delegated briefs bounded and require sources, changed paths and actual check results.
+Honor the active session role and higher-priority instructions. In an explicitly identified `gpt-6-astra` or `gpt-6.1-sol` orchestrator session, delegate searches, file changes and checks to `gpt-6-luna` workers (choose effort for the task); integrate evidence without editing files yourself. Workers execute their assigned scope directly without recursive delegation. A `gpt-6-luna` main session executes directly. Do not infer the running model from a config default, invent model IDs, or silently switch roles when delegation is unavailable; report the limitation and request an explicit direct-work override. Keep delegated briefs bounded and require sources, changed paths and actual check results.
 
 Read [references/layout.md](references/layout.md) for the target contract. Create the smallest useful project-specific documentation.
 

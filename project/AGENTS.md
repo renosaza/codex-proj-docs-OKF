@@ -21,8 +21,8 @@ Keep project bans source-backed and scoped; do not duplicate global policy here.
 
 ## Execution
 
-Split non-atomic work into bounded subtasks. Preserve global model routing: Astra/Sol
-orchestrate through workers; Terra/Luna execute assigned work directly. One writer per
+Split non-atomic work into bounded subtasks. Preserve global model routing: Astra/Sol 6.1
+orchestrate through workers; Luna 6 executes assigned work directly. One writer per
 file during parallel work; the orchestrator delegates integrated verification.
 Prefer the smallest correct change and existing tools. Add project commands only after
 checking actual manifests, CI and documentation. Do not invent commands or add a pipeline

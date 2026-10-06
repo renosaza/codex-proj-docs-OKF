@@ -67,8 +67,8 @@ and pages with useful knowledge. Remove unused pages and fix the index links.
 
 ## Model routing
 
-Astra/Sol orchestrate only: research goes to Luna, changes and checks to Terra. The parent
-chooses supported effort for each assignment. Terra/Luna execute directly. These instructions
+`gpt-6-astra` / `gpt-6.1-sol` orchestrate only; delegated research, changes and checks run
+on `gpt-6-luna`. The parent chooses supported effort for each assignment. Luna executes directly. These instructions
 use available delegation tools and explicit model selection, without custom role files.
 Runtime must support the models and delegation; if unavailable, report the blocker and obtain
 an explicit policy override before direct execution. AGENT_ROLE is a prompt marker when
