@@ -65,6 +65,14 @@ version-sensitive details against installed versions and current primary sources
 smallest meaningful checks and report remaining limits. Continue authorized reversible work
 without repeated confirmation; a missing permission blocks only its dependent action.
 
+For repository work, the user's task is standing authorization to commit and push the
+task's completed changes. After the smallest meaningful verification, create a commit and
+immediately push it to the current working branch without asking for additional confirmation.
+Include only task-related changes. Never force-push, rewrite shared history, merge, deploy or
+publish unrelated work unless separately authorized. If commit or push is blocked by access,
+branch protection, conflicts or remote failure, report the exact blocker and preserve the
+verified local commit when possible.
+
 Use Git-native docs as durable knowledge. Keep project prohibitions in `docs/constraints.md`,
 linked from AGENTS.md. Update affected facts, decisions, debt and handoff state only. Preserve
 negative findings, source references, current state and next step; omit transcripts/private
