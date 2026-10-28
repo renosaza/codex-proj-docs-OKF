@@ -1,0 +1,6 @@
+interface:
+  display_name: UB Mode
+  short_description: Apply opt-in TDD and honest quality gates to code changes
+  default_prompt: Use $ub-mode to guide this code change with a small scope, behavior tests, and available quality gates.
+policy:
+  allow_implicit_invocation: false

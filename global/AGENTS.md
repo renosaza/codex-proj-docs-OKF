@@ -87,6 +87,7 @@ Use the canonical repository host. Available tools do not authorize external act
 - project-docs-init: create project knowledge from real requirements and code.
 - project-docs-migrate: reorganize existing knowledge when explicitly requested.
 - project-docs-maintain: update only affected knowledge after work or handoff.
+- `ub-mode`: apply only when the user requests `$ub-mode` or explicitly asks for its coding workflow. It does not apply code gates to documentation-only work; companion quality tools are optional and are not installed automatically.
 
 Use other skills and navigation tools when installed and relevant. No particular MCP,
 indexer, memory server or paid API is required. Prefer existing search and checks.
