@@ -64,15 +64,16 @@ The badge at the top mirrors the repository's `total installs` value from skills
 
 ## Adopt the full kit
 
-The skills CLI installs the skills only. The global and project AGENTS.md files remain explicit templates and should be merged rather than blindly overwritten.
+The skills CLI installs the skills only, not `linters/`. The global and project AGENTS.md files remain explicit templates and should be merged rather than blindly overwritten.
 
 1. Merge `global/AGENTS.md` into your Codex global `AGENTS.md` (normally `~/.codex/AGENTS.md`, or under your configured CODEX_HOME). Preserve existing relevant instructions.
 2. Install the four folders under `skills/` with the skills.sh commands above. Manual copying into your agent's skills directory remains a fallback when the CLI is unavailable.
 3. Merge `project/AGENTS.md` into the target repository's root AGENTS.md. Populate real purpose, boundaries and verified commands. Preserve existing restrictions.
 4. For a new project, use `$project-docs-init`; adopt only useful pages from `project/docs/`. For existing documentation, use `$project-docs-migrate` instead of overwriting it with templates. Continue with `$project-docs-maintain`. Request `$ub-mode` separately when you want its coding workflow.
+5. Select applicable [strict linter profiles](linters/README.md), merge them into the actual project configuration and verify them with the project’s commands. These are optional, standalone templates, not installed by the skills CLI.
 
 Initialization means creating the documentation system, not deploying an application.
-No installer, configuration overwrite, runtime dependency or mandatory CI is included.
+The kit does not automatically install dependencies, overwrite configuration or enable mandatory CI; individual profiles include optional configuration and small checking scripts.
 The full docs tree is a menu of templates; a small project needs only its index, constraints
 and pages with useful knowledge. Remove unused pages and fix the index links.
 

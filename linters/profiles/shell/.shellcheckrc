@@ -1,0 +1,4 @@
+# Keep the script's declared shell; do not reinterpret every file as Bash.
+enable=all
+external-sources=true
+source-path=SCRIPTDIR

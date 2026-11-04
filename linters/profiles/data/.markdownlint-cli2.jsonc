@@ -1,0 +1,8 @@
+{
+  "config": {
+    "default": true
+  },
+  "noInlineConfig": true,
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", "vendor/**"]
+}

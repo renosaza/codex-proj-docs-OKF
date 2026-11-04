@@ -1,0 +1,7 @@
+---
+version: v2
+lint:
+  use:
+    - STANDARD
+    - COMMENTS
+  disallow_comment_ignores: true

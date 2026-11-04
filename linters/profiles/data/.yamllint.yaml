@@ -1,0 +1,9 @@
+---
+extends: default
+rules:
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true
+  octal-values:
+    forbid-implicit-octal: true
+    forbid-explicit-octal: true

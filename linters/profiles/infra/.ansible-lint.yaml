@@ -1,0 +1,8 @@
+---
+profile: production
+strict: true
+warn_list: []
+skip_list: []
+enable_list:
+  - no-log-password
+  - yaml

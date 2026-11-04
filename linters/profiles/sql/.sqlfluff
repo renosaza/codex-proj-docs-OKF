@@ -1,0 +1,8 @@
+[sqlfluff]
+# Pass the real dialect explicitly, or add it to this file during adoption.
+# Plain SQL only. dbt/Jinja projects must select and install their templater.
+templater = raw
+rules = all
+disable_noqa = True
+# Do not silently skip large source files. Bound CI runtime externally.
+large_file_skip_byte_limit = 0

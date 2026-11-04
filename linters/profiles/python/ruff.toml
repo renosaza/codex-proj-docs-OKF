@@ -1,0 +1,23 @@
+# Copy or merge into the target project. Pin the tool before enabling ALL.
+line-length = 88
+preview = false
+unsafe-fixes = false
+
+[lint]
+select = ["ALL"]
+# Formatting conflicts documented by Ruff; correctness/security stay enabled.
+ignore = [
+  "COM812", "COM819", "D203", "D206", "D300",
+  "E111", "E114", "E117", "Q000", "Q001", "Q002", "Q003", "Q004", "W191",
+  # Legal headers require the adopting project's actual copyright policy.
+  "CPY001",
+]
+
+[lint.mccabe]
+max-complexity = 10
+
+[lint.pydocstyle]
+convention = "google"
+
+[format]
+docstring-code-format = true

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "check:lint": "eslint . --max-warnings 0",
+    "check:types": "tsc --noEmit",
+    "check:format": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.14.0",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1"
+  }
+}

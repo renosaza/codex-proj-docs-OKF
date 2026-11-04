@@ -28,6 +28,11 @@ Prefer the smallest correct change and existing tools. Add project commands only
 checking actual manifests, CI and documentation. Do not invent commands or add a pipeline
 merely to satisfy this template. Record missing setup knowledge in a relevant guide.
 
+For code changes, select checks for the actual languages and project scope. Use the
+existing formatter, linter, type checker or compiler, and relevant tests; warnings should
+block where supported. Do not weaken gates or add suppressions merely to pass. Preserve
+accepted narrow exceptions and report commands, versions, exit status and checks not run.
+
 ## Durable knowledge
 
 Use project-docs-init for initial setup, project-docs-migrate for requested conversion,

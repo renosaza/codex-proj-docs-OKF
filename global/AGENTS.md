@@ -65,6 +65,12 @@ version-sensitive details against installed versions and current primary sources
 smallest meaningful checks and report remaining limits. Continue authorized reversible work
 without repeated confirmation; a missing permission blocks only its dependent action.
 
+For code changes, identify the real stack and existing quality gates before selecting applicable
+strict checks. Run the project’s relevant formatter check, linter, type checker or compiler,
+and tests; make warnings blocking where supported. Do not add suppressions, exclusions,
+unsafe casts or skipped checks merely to pass. Preserve authorized narrow exceptions and
+report the actual commands, versions, exit status and unrun checks.
+
 For repository work, the user's task is standing authorization to commit and push the
 task's completed changes. After the smallest meaningful verification, create a commit and
 immediately push it to the current working branch without asking for additional confirmation.

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "check:css": "stylelint \"**/*.css\" --max-warnings 0 --ignore-disables",
+    "check:html": "html-validate --max-warnings 0 \"**/*.html\""
+  },
+  "devDependencies": {
+    "html-validate": "11.18.0",
+    "stylelint": "18.0.0",
+    "stylelint-config-standard": "41.0.0"
+  }
+}
